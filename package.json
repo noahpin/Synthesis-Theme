@@ -1,0 +1,23 @@
+{
+  "name": "synthesis",
+  "displayName": "Synthesis",
+  
+  "publisher": "dazon",
+  "description": "A dark theme with neon colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Synthesis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Synthesis-color-theme.json"
+      }
+    ]
+  }
+}
